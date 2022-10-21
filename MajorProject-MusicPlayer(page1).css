@@ -1,0 +1,354 @@
+
+/*css rules for parent background container*/
+
+body{
+	width: 97vw;
+	height: 96vh;
+	background-image: linear-gradient(black, #080d42, #141732);
+	display: flex;
+	flex-direction: column;
+}
+
+/* @media (max-width:500px)
+{
+	body{
+		display: block;
+	}
+} */
+#NavigationBox {
+	height: 10%;
+	width: 100%;
+	display: flex;
+}
+
+
+#logo {
+	width: 50%;
+	height: 100%;
+	display: flex;
+}
+
+#logo img {
+	margin-left: 100px;
+	width: 35%;
+	height: 100%;
+}
+
+#moreNavIcons {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+#moreNavIcons img {
+	border-radius: 50%;
+	width: 10%;
+	height: 90%;
+	min-width: 20px;
+	min-height: 40px;
+}
+
+#icon{
+	color: white;
+}
+
+/*lower division of parent background container*/
+#lowerBox{
+	width: 100%;
+	height: 90%;
+	/*background-color: brown;*/
+	display: flex;
+}
+
+/* setting css rules for left box 
+division of lower division*/
+#box1{
+	flex: 3;
+	margin-left: 20px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+}
+
+
+/* setting css rules for right box
+ division of lower division*/
+#box2{
+	flex: 1;
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: white;
+	/*background-color: skyblue;*/
+	font-size: 12px;
+	font-family:cursive ;
+	margin-right: 20px;
+
+}
+
+
+/* setting css rules for images in list of
+right box division of lower division*/
+#box2 li img{
+	height: 22px;
+	width: 22px;
+	margin: 5px 12px 0px 0px;
+}
+
+
+/* setting css rules for list of
+right box division of lower division*/
+#box2 li{
+	margin-bottom:7px ;
+}
+
+/*hovering*/
+#box2 li:hover{
+	/*text-shadow: 
+    0 -1.2em #000, 
+    0 0 #1095c1;*/
+    text-decoration: underline;
+}
+
+#trendingHeading{
+	width: 100%;
+	height: 10px;
+	color: white;
+	margin-left: 30px;
+}
+/*setting rules for division made for
+ trending music */
+#trending{
+	width: 100%;
+	height:25%;
+	/*background-color: pink;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*setting css rules for images in division 
+made for trending music */
+#trendingImage1{
+	height: 100px;
+	width: 140px;
+	margin-left: -25px;
+	padding-bottom: 10px;
+
+}
+#trendingImage2{
+	height: 110px;
+	width: 150px;
+	margin-left: -25px;
+	padding-bottom: 10px;
+}
+#trendingImage3{
+	height: 120px;
+	width: 160px;
+	margin-left: -25px;
+	padding-bottom: 10px;
+}
+#trendingImage4{
+	height: 130px;
+	width: 170px;
+	margin-left: -25px;
+	padding-bottom: 10px;
+}
+#trendingImage5{
+	height: 140px;
+	width: 180px;
+	margin-left: -25px;
+	padding-bottom: 10px;
+}
+
+/*images of trendig division hovering*/
+#trending img:hover{
+	height: 135px;
+	width: 200px;
+	transition-duration: 0.5s;
+	position: relative;
+	padding-right: 20px;
+}
+
+
+#artistHeading{
+	width: 100%;
+	height: 10px;
+	color: white;
+	margin-left: 30px;
+}
+/*setting css rules for division made to select
+ artist of your choice */
+#artist{
+	width: 100%;
+	height:15%;
+	/*background-color: green;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* justify-content: space-around; */
+	margin-bottom: 20px;
+}
+
+/*setting css rules for images in division made 
+to select artist of your choice */
+#artist img{
+	height: 85px;
+	width: 85px;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-right:20px ;
+}
+
+/*setting css rules for hovering over images
+ in division made to select artist of 
+ your choice */
+#artist img:hover{
+	height: 80px;
+	width: 80px;
+	transition-duration: 0.5s;
+}
+
+
+/* settings for artist's name*/
+.artistName{
+	color: white;
+	font-size: small;
+	display: flex;
+	justify-content: center;
+}
+
+
+#moodHeading{
+	width: 100%;
+	height: 10px;
+	color: white;
+	margin-left: 30px;
+}
+
+
+/*setting css rules for division made 
+to select mood of your choice */
+#mood{
+	width: 100%;
+	height:20%;
+	/*background-color: orange;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	margin-bottom: 20px;
+}
+
+/*setting css rules for images in division made 
+to select mood of your choice */
+#mood img{
+	height: 90px;
+	width: 80px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/*hovering of images in mood division*/
+#mood img:hover{
+	opacity: 0.5;
+	height: 120px;
+	width: 80px;
+	transition-duration: 0.5s;
+}
+
+
+#playlistHeading{
+	width: 100%;
+	height: 10px;
+	color: white;
+	margin-left: 30px;
+}
+#playlist{
+	width: 100%;
+	height:20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#playlist img{
+	height: 90px;
+	width: 80px;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+#playlist img:hover{
+	opacity: 0.5;
+	height: 120px;
+	width: 80px;
+	transition-duration: 0.5s;
+}
+footer{
+	width: 100%;
+	height: 10%;
+	background-color: #3d4169;
+	display: flex;
+	color: white;
+}
+
+footer div{
+	flex:1;
+	display: flex;
+	
+}
+
+#currentSong{
+	margin: 5px;
+	width: 15%;
+	height: 90%;
+}
+
+#playIcons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+
+#soundIcon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+#soundLevel{
+	/* width: 10px; */
+	height:2px;
+	background-color: white;
+	margin-left: 5px;
+	margin-right: 150px;
+	display: flex;
+}
+
+#greenColorInSound{
+	width: 50px;
+	/* height: ; */
+	background-color: lightgreen;
+}
+
+
+#footerMiddleBox{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+/* #musicCompletionLevel{
+	height: 20px;
+	background-color: white;
+} */
